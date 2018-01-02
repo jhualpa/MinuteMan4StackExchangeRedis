@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minuteman", "Minuteman\Minuteman.csproj", "{8F94F3CA-195A-47EA-B144-EFB5950B15F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minuteman.Tests", "Minuteman.Tests\Minuteman.Tests.csproj", "{82D07991-6C73-415D-8FA2-1C998312ED36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedFiles", "SharedFiles", "{9643717F-0236-4446-8102-3FEFF31B90D2}"
+	ProjectSection(SolutionItems) = preProject
+		SharedFiles\CodeAnalysisDictionary.xml = SharedFiles\CodeAnalysisDictionary.xml
+		SharedFiles\CommonAssemblyInfo.cs = SharedFiles\CommonAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C4459782-241A-4AC2-A189-E6DE5946A3B5}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{77D830F6-9556-4F68-85BF-2DE86D7082E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9CF51B00-A5DF-4226-8692-503F4B70DBDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minuteman.Infrastructure.Configuration", "Minuteman.Infrastructure.Configuration\Minuteman.Infrastructure.Configuration.csproj", "{38ABD3F3-D429-4ADB-98BB-0434C23E47FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minuteman.Infrastructure.Serialization", "Minuteman.Infrastructure.Serialization\Minuteman.Infrastructure.Serialization.csproj", "{24B89414-A1F2-4DA7-9DA7-BE6672DB6F24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F94F3CA-195A-47EA-B144-EFB5950B15F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F94F3CA-195A-47EA-B144-EFB5950B15F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F94F3CA-195A-47EA-B144-EFB5950B15F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F94F3CA-195A-47EA-B144-EFB5950B15F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82D07991-6C73-415D-8FA2-1C998312ED36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82D07991-6C73-415D-8FA2-1C998312ED36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82D07991-6C73-415D-8FA2-1C998312ED36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82D07991-6C73-415D-8FA2-1C998312ED36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38ABD3F3-D429-4ADB-98BB-0434C23E47FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38ABD3F3-D429-4ADB-98BB-0434C23E47FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38ABD3F3-D429-4ADB-98BB-0434C23E47FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38ABD3F3-D429-4ADB-98BB-0434C23E47FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B89414-A1F2-4DA7-9DA7-BE6672DB6F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B89414-A1F2-4DA7-9DA7-BE6672DB6F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B89414-A1F2-4DA7-9DA7-BE6672DB6F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B89414-A1F2-4DA7-9DA7-BE6672DB6F24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F94F3CA-195A-47EA-B144-EFB5950B15F2} = {77D830F6-9556-4F68-85BF-2DE86D7082E5}
+		{82D07991-6C73-415D-8FA2-1C998312ED36} = {9CF51B00-A5DF-4226-8692-503F4B70DBDC}
+		{38ABD3F3-D429-4ADB-98BB-0434C23E47FB} = {77D830F6-9556-4F68-85BF-2DE86D7082E5}
+		{24B89414-A1F2-4DA7-9DA7-BE6672DB6F24} = {77D830F6-9556-4F68-85BF-2DE86D7082E5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F172B817-5EC1-4C05-9C8A-754BE4DF3E79}
+	EndGlobalSection
+EndGlobal
