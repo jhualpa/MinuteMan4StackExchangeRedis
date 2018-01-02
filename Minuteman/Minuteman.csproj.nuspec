@@ -6,7 +6,7 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <projectUrl>https://github.com/kazimanzurrashid/MinutemanDotNet</projectUrl>
+    <projectUrl>https://github.com/jhualpa/MinuteMan4StackExchangeRedis</projectUrl>
     <description>$description$</description>
     <tags>analytics redis performance live realtime pubsub</tags>
   </metadata>
